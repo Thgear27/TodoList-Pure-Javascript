@@ -1,0 +1,103 @@
+html {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 12px;
+}
+
+button:focus {
+    background-color: rgb(222, 253, 253);
+}
+
+button:hover {
+    background-color: rgb(222, 253, 253);
+}
+
+button:active {
+    background-color: hsl(180, 16%, 42%);
+}
+
+#main-container {
+    background-color: rgba(27, 145, 158, 0.705);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 200px;
+}
+
+header {
+    width: 100%;
+}
+
+#title {
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-input-task {
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+#input-task-container{
+    display: flex;
+    gap: 10px;
+}
+
+#tasks-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
+
+.border-top {
+    border-top: solid;
+    border-width: 1px;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.task-name {
+    width: 100%;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.check-task {
+    padding: 100px;
+}
+
+.marked {
+    text-decoration: line-through;
+}

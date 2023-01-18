@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles.css">
+   <title>To-do List</title>
+</head>
+
+<body>
+   <div id="main-container">
+
+      <header>
+         <h2 id="title">To-do List</h2>
+      </header>
+
+      <div id="input-task-container">
+         <input id="input-text" class="text-input-task" type="text" placeholder="Enter a task">
+         <button id="btn-add">Add</button>
+      </div>
+
+      <div id="tasks-container" class="border-top">
+         <div class="task" id="task-number-0">
+            <input id="checkBox-0" class="box" type="checkbox" style="width:25px; height:25px"">
+            <p id="p-0" class="task-name">Terminar el Proyecto</p>
+            <button id="btn-0" class="btn-delete">Delete</button>
+         </div>
+         <div class="task" id="task-number-1">
+            <input id="checkBox-1" class="box" type="checkbox" style="width:25px; height:25px"">
+            <p id="p-1" class="task-name">Terminar el Proyecto</p>
+            <button id="btn-1" class="btn-delete">Delete</button>
+         </div>
+      </div>
+
+   </div>
+   <script src="./index.js"></script>
+</body>
+
+</html>
